@@ -2,6 +2,16 @@ body
 { 
     background-color: #d4d4d4;
 }
+body p 
+{
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-weight:900;
+    font-variant: normal;
+    font-size: 150%;
+    font-style: normal;
+    box-shadow: black;
+    box
+}
 .navbar a
 {
     display: inline;
