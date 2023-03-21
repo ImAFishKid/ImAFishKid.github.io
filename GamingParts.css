@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body
+  { 
+    margin: 0;
+    background-image: url("109392.jpg");
+  }
+
+.header .text .glow
+  {
+  box-shadow: 0 0 50px 5px white;
+  }
+
+.navbar ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:300;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navbar li 
+  {
+    float: left;
+  }
+  
+.navbar li a 
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: #111;
+  }
+
+.header .img
+  {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+  }
+
+.header .img2
+  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.header .header-text
+  {
+    font-family: Helvetica, sans-serif;
+    font-variant: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: aliceblue;
+    
+    text-shadow: 0px 0px 50px rgb(148, 148, 148);
+  }
+  
+.header .header-text h1
+  {
+    font-size: 500%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.text .main
+  {
+    font-size: 250%;
+    text-align: center;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue
+  }
+.text .sub
+  {
+    font-size: 140%;
+    text-align: center;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+  }
+
+.border
+  {
+  border: 3px solid #333
+  }
+
+.header .parts-header
+  {
+    font-family: Helvetica, sans-serif;
+    font-variant: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0px 0px 50px rgb(148, 148, 148);
+    font-size: 250%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
