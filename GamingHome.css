@@ -124,14 +124,15 @@ body
   .header .message
   { 
     color: rgba(255, 255, 255, 0.01);
-    font-size: 500%;
+    font-size: 250%;
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Helvetica, sans-serif;
     font-variant: normal;
     font-style: normal;
     text-decoration: none;
+    
   }
