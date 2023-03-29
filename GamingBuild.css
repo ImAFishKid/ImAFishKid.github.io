@@ -123,3 +123,9 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .video
+  {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
