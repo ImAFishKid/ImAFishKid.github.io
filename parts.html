@@ -1,78 +1,98 @@
 <!DOCTYPE html>
-    
-    <html> 
-        <head>
-            <meta charset="utf-8">
-            <title>Digitech Assesment</title>
-            <link rel="stylesheet" href="GamingParts.css">
-            <script src="GamingPC.js"></script>
-        </head>
 
-        <body>
-        
-            <div class="background">
-                <img src="109392.jpg" alt="background">
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Digitech Assesment</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="parts.css">
+   <script src="gaming-pc.js"></script>
+</head>
+
+<body class="parts">
+
+   <div class="navbar">
+      <ul>
+         <li><a class="active" href="index.html"> Home </a> </li>
+         <li><a href="parts.html"> Parts </a></li>
+         <li><a href="build.html"> How To Build </a></li>
+      </ul>
+   </div>
+   <div class="content">
+      <div class="column-layout">
+
+         <div class="header">
+            <div class="parts-header">
+               <h1>Parts </h1>
             </div>
+            <h3>Before you jump in and start buying parts, you should ask yourself: what am I going to use this PC for? </h3>
+         </div>
+         <div class="text-block">
+            Are you going to use it for gaming? If so then you should put more budget into your GPU and sometimes CPU.
+            Are you using it for video production? Then you shouldn't worry too much about GPU and focus on CPU and RAM.
+            Or, are you using it for network storage? Then you should look for a motherboard with lots of I/O and a case with
+            plenty of drive bays. <br>
 
-            <div class="border"> </div>
+            For this website, however, I'll be focusing on the gaming side of things. So, another question to ask 
+            yourself is: What type of games am I going to be running? Are you into high-pace, millisecond-counts First Person Shooters? If so,
+            then you'd want to allocate some budget into a good gaming mouse and keyboard, and a high refresh rate monitor, even if it comes at the
+            cost of resolution or colour detail. Or are you into RPGs and visually intensive games where you want to explore? Then you'll want a high
+            resolution display, preferably with HDR. You may not care much about keyboards and mice and may even want a console controller instead. For your CPU, to
+            future proof your build, a rule of thumb is to pick one with at least as many cores as a current-gen console and if you want to stream or record, you
+            should add 2 or 4 more and make sure you get a gpu with a good hardware video encoder.
+         </div>
 
-            <div class="header">
-                <div class="parts-header">
-                    <h1>Parts </h1>
-                </div>
-            </div>
+         <div class="text-block">
+            The next question is arguably your biggest: what's your budget? if you're thinking either less than you'd
+            like or youll take what you can, then you should probably buy a used, prebuilt PC. They can be a fraction of the cost and can accommodate for the rest
+            of your build fairly easily as most of the work has been done for you. Another option is buying older components which will be much cheaper as
+            retailers clear stock to make way for new-gen parts. But, with that said, you should still make sure that your CPU socket and motherboard chipset are
+            compatible before you buy. Also, be mindful that buying an older processor will make it harder to upgrade later down the line
+         </div>
 
+         <div class="text-block">
+            When starting a build, you should look at your CPU and GPU first, as they take up most of the cost and will narrow down the list of extra components 
+            dramatically. For your CPU, it's important to see if downgrading slightly is better for your budget than the small amount of performance lost. Take 
+            the i9 11700k and i7 11700k, they're both 8 core, 16 thread processors but they have a max clock of 5.30GHz and 5.00GHz respectively. This means that 
+            in practicality, there's only a 6% performance difference between them with almost a NZD$300 difference in cost. There is more to a CPU than power, 
+            however, sometimes you'll want integrated graphics and sometimes youll want faster PCI-e lanes. For Intel CPUs you can go for a KF processor rather 
+            than a K series for  better price without integrated graphics. On the flip side, AMD CPUs are cheaper when buying with integrated graphics.
+         </div>
+
+         <div class="text-block">
+            On to GPU, now, let's start by making something clear: do NOT buy a GPU based on clock speed alone. Always check reviews and look out for extra features 
+            that you want, like real-time raytracing, hardware video encoding and anything you think you'll likely use. Such as DLSS which boosts performance at a 
+            small cost of visual quality. Now, motherboards are an interesting one, because it can be enticing to go for one with all the big numbers but unless 
+            you're a hardcore overclocker who's getting your motherboards sponsored anyway, you're unlikely to see a huge performance boost. But, that's not to say 
+            you should go for the cheapest boards around, because although they may seem like a bargain, they can have limitations, like their max RAM and sometimes 
+            lack of overclocking support. For most people, a mid-range motherboard with good user reviews will do you just fine.
+         </div>
+
+         <div class="text-block">
+            Now, on to form factor, motherboards come in many different sizes, ATX is the biggest, with usually around 5
+            expansion slots, 3 M.2 slots, 6 SATA Headers and 4-8 RAM slots. ATX is good for those who want to maximise their build and don't mind about
+            losing some desk space as a result. ATX cases are good for those who aren't sure what to get because they can fit any smaller motherboard size. Micro-ATX
+            is the next size down, they usually have at most 4 expansion slots and 2-4 RAM slots with the same amount of SATA headers and M.2 slots as an ATX
+            board. Now, the smallest, DTX and Mini-ITX are extremely small with 2 and 1 expansion slot(s) respectively, however, they are for those with a bit more
+            experience so we won't cover them in this guide.
+         </div>
+
+      </div>
+
+
+   </div>
+
+
+   <!-- 
             <div class="text">
                 <h6 class="main">Before you jump in and start buying parts, you should ask yourself: what am I going to use this PC for?</h6>
-                <div class="sub">
-                    <h6 class="Overview">
-                        Are you going to use it for gaming? If so then you should put more budget into your GPU and sometimes CPU. 
-                        Are you using it for video production? Then you shouldn't worry too much about GPU and focus on CPU and RAM. Or, are 
-                        you using it for network storage? Then you should look for a motherboard with lots of I/O and a case with plenty of drive bays. <br>
-                        
-                        For this website, however, I'll be focusing on the gaming side of things. So, another question to ask yourself is: What type of 
-                        games am I going to be running? Are you into high-pace, millisecond-counts First Person Shooters? If so, then you'd want to allocate 
-                        some budget into a good gaming mouse and keyboard, and a high refresh rate monitor, even if it comes at the cost of resolution or colour detail.
-                        Or are you into RPGs and visually intensive games where you want to explore? Then you'll want a high resolution display, preferably with HDR. You 
-                        may not care much about keyboards and mice and may even want a console controller instead. For your CPU, to future proof your build, a rule of thumb 
-                        is to pick one with at least as many cores as a current-gen console and if you want to stream or record, you should add 2 or 4 more and make sure you 
-                        get a gpu with a good hardware video encoder.
-                    </h6> 
-                    <h6 class="form-factor">
-                        Now, on to form factor, motherboards come in many different sizes, ATX is the biggest, with usually around 5 expansion slots, 3 M.2 slots, 6 SATA 
-                        Headers and 4-8 RAM slots. ATX is good for those who want to maximise their build and don't mind about losing some desk space as a result. ATX cases 
-                        are good for those who aren't sure what to get because they can fit any smaller motherboard size. Micro-ATX is the next size down, they usually have 
-                        at most 4 expansion slots and 2-4 RAM slots with the same amount of SATA headers and M.2 slots as an ATX board. Now, the smallest, DTX and Mini-ITX 
-                        are extremely small with 2 and 1 expansion slot(s) respectively, they are for those with a bit more experience so we won't cover them in this guide.
-                    </h6>
-                        
-                    <h6 class="budget"> 
-                        The next question is arguably your biggest: what's your budget? if you're thinking either less than you'd like or youll take what you can, then you 
-                        should probably buy a used, prebuilt PC. They can be a fraction of the cost and can accommodate for the rest of your build fairly easily as most of 
-                        the work has been done for you. Another option is buying older components which will be much cheaper as retailers clear stock to make way for new-gen 
-                        parts. But, with that said, you should still make sure that your CPU socket and motherboard chipset are compatible before you buy. Also, be mindful 
-                        that buying an older processor will make it harder to upgrade later down the line
-                    </h6>
-                        
-                    <h6 class="CPU">
-                        When starting a build, you should look at your CPU and GPU first, as they take up most of the cost and will narrow down the list of extra components 
-                        dramatically. For your CPU, it's important to see if downgrading slightly is better for your budget than the small amount of performance lost. Take 
-                        the i9 11700k and i7 11700k, they're both 8 core, 16 thread processors but they have a max clock of 5.30GHz and 5.00GHz respectively. This means that 
-                        in practicality, there's only a 6% performance difference between them with almost a NZD$300 difference in cost. There is more to a CPU than power, 
-                        however, sometimes you'll want integrated graphics and sometimes youll want faster PCI-e lanes. For Intel CPUs you can go for a KF processor rather 
-                        than a K series for  better price without integrated graphics. On the flip side, AMD CPUs are cheaper when buying with integrated graphics.
-                    </h6> 
+               
+                  
                     <h4 class="GPU-Title">
 
                     </h4>
-                    <h6 class="GPU">
-                        On to GPU, now, let's start by making something clear: do NOT buy a GPU based on clock speed alone. Always check reviews and look out for extra features 
-                        that you want, like real-time raytracing, hardware video encoding and anything you think you'll likely use. Such as DLSS which boosts performance at a 
-                        small cost of visual quality. Now, motherboards are an interesting one, because it can be enticing to go for one with all the big numbers but unless 
-                        you're a hardcore overclocker who's getting your motherboards sponsored anyway, you're unlikely to see a huge performance boost. But, that's not to say 
-                        you should go for the cheapest boards around, because although they may seem like a bargain, they can have limitations, like their max RAM and sometimes 
-                        lack of overclocking support. For most people, a mid-range motherboard with good user reviews will do you just fine.
-                    </h6>
+                    
 
                     <h6>
                         So, RAM
@@ -83,14 +103,9 @@
             </div>
 
             
+ -->
 
-            <div class="navbar">  
-                <ul>
-                    <li><a class="active" href="index.html"> Home </a> </li>
-                    <li><a href="parts.html"> Parts </a></li>
-                    <li><a href="build.html"> How To Build </a></li>
-                </ul>
-            </div>
 
-        </body>
-    </html>
+</body>
+
+</html>
