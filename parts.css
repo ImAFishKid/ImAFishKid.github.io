@@ -52,26 +52,4 @@ body.parts .header {
    background    : #353535;
 }
 
- /* ------------------------------- */
-
-
-.text .main {
-   font-size  : 250%;
-   text-align : center;
-   position   : absolute;
-   font-family: Helvetica, sans-serif;
-   top        : 15%;
-   left       : 2%;
-   width      : 40%;
-   color      : aliceblue
-}
-
-.text-block.sub-title {
-   font-size  : 140%;
-   text-align : center;
-   position   : absolute;
-   font-family: Helvetica, sans-serif;
-   color      : aliceblue;
-}
-
 

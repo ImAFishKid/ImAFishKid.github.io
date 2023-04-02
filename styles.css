@@ -23,8 +23,8 @@ body {
 }
 
 .page-layout .content {
-   flex: 1;  
-   overflow: hidden; /* allow flex to fill available space and  no more  */
+   flex: 1;  /* allow flex to fill available space and  no more  */
+   overflow: hidden; 
 }
 
 .column-layout {
